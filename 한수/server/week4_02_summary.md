@@ -94,12 +94,13 @@
   - Go-Back-n ARQ(슬라이딩 윈도우) : 전송된 프레임이 손상되거나 분실된 경우 또는 ACK 이 손실되어 TIME_OUT이 발생한 경우 확인된 마지막 프레임 이후로 모든 프레임을 재전송
     
     ![04](https://github.com/Han-Ho-Study/ServerStudy/blob/main/한수/server/Image/week4_image4.png)
+    ![05](https://github.com/Han-Ho-Study/ServerStudy/blob/main/한수/server/Image/week4_image4_2.webp)
     
   - SR(Selective-Reject) ARQ : Go-Back-N ARQ 의 단점을 보완한 방식, 손상되거나 손실된 프레임만 재전송
     - 데이터 재정렬을 수행해야하며 별도의 버퍼를 필요
     - 수신 측에서는 이 버퍼로 데이터를 정렬
       
-    ![05](https://github.com/Han-Ho-Study/ServerStudy/blob/main/한수/server/Image/week4_image5.png)
+    ![06](https://github.com/Han-Ho-Study/ServerStudy/blob/main/한수/server/Image/week4_image5.png)
 
 ## 2.8 주로 사용하는 메시지 형식
 - 과거에는 메시지를 받는쪽에서 글자 검색을 하거나 구문 분석기(Parser)를 동원하였음
