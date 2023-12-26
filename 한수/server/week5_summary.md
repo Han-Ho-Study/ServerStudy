@@ -75,3 +75,5 @@ main()
 ## 3.9 IOCP
 - Overlapped I/O가 완료되면 이를 감지해서 사용자에게 알려주는 역할
 
+
+   ![02](https://github.com/Han-Ho-Study/ServerStudy/blob/main/한수/server/Image/week5_image2.PNG)
