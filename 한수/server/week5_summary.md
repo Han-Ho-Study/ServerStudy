@@ -74,6 +74,6 @@ main()
 
 ## 3.9 IOCP
 - Overlapped I/O가 완료되면 이를 감지해서 사용자에게 알려주는 역할
-
+- IOCP에서 I/O가 완료되었음을 알려주는 완료신호를내장된 큐에서 꺼낼수 있어 모든 소켓들이 루프를 돌지 않아도 됨
 
    ![02](https://github.com/Han-Ho-Study/ServerStudy/blob/main/한수/server/Image/week5_image2.PNG)
